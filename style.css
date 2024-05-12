@@ -38,7 +38,7 @@ a {
     padding: 100px 0px;
 }
 
-img {
+img.placeholder {
     width: 450px;
     height: 200px;
     border: 1px solid pink;
@@ -67,4 +67,32 @@ h1 {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.second-c {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.item {
+    max-width: 200px;
+}
+
+.second {
+    text-align: center;
+    padding: 52px;
+}
+
+img.illus {
+    height: 100px;
+    width: 100px;
+    border: 2px solid pink;
+    border-radius: 10%;
+}
+
+h2 {
+    padding: 0;
+    padding-bottom: 52px;
+    margin: 0;
 }
