@@ -101,3 +101,28 @@ h2 {
     font-weight: bolder;
     color: #1f2937;
 }
+
+.third {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 100px 300px;
+    background-color: #e5e7eb;
+}
+
+.third p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+}
+
+p.end {
+    margin-left: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: large;
+}
