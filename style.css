@@ -52,6 +52,7 @@ button {
     color: white;
     background-color: royalblue;
     border: 1px solid royalblue;
+    width: 120px;
 }
 
 h1 {
@@ -125,4 +126,44 @@ p.end {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: large;
+}
+
+.four-c p {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.four {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.four-a {
+    padding: 100px 25%;
+}
+
+.bold {
+    font-size: large;
+    font-weight: bold;
+}
+
+button.down {
+    background-color: #3882f6;
+    border: 2px solid white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.footer {
+    height: 80px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
